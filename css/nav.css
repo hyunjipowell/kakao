@@ -1,0 +1,36 @@
+.nav {
+  position: fixed;
+  width: calc(100% - 80px);
+  bottom: 0;
+  background-color: white;
+  padding: 20px 40px;
+  border-top: var(--border-line);
+}
+
+.nav__list {
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav__link {
+  position: relative;
+  color: var(--green);
+}
+
+.nav__notice {
+  position: absolute;
+  margin: -12px 20px;
+}
+
+@keyframes nav {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.nav-ani {
+  animation: nav 2s ease-in-out forwards;
+}

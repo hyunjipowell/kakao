@@ -1,0 +1,30 @@
+.two__notice {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-weight: 600;
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  background-color: tomato;
+}
+
+@keyframes notifice {
+  0% {
+    transform: none;
+  }
+  50% {
+    transform: translateY(-4px) rotateZ(10deg);
+  }
+  100% {
+    transform: none;
+  }
+}
+
+.btn-ani {
+  animation: notifice 2s ease-in-out infinite;
+}
+.chats_notice {
+  margin: 5px 25px;
+}

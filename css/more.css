@@ -1,0 +1,52 @@
+.more__btn {
+  color: #6cb77e;
+  border-radius: 14px;
+  padding: 8px 12px;
+  border: 1px solid #6cb77e4d;
+  box-shadow: 0px 0px 4px 0px #6cb77e;
+  margin-right: 10px;
+}
+
+.box__money {
+  background-color: var(--green);
+  border: 1px solid white;
+  padding: 10px;
+  border-radius: 25px;
+  color: white;
+}
+
+.pay__box {
+  display: flex;
+  justify-content: space-between;
+  padding: 11px;
+  background-color: white;
+  border-radius: 15px;
+  margin: 10px 13px;
+  align-items: center;
+}
+
+.more__list {
+  display: flex;
+  text-align: center;
+  padding: 30px;
+  flex-wrap: wrap;
+}
+
+.more__list i {
+  margin-bottom: 8px;
+}
+
+.list__box {
+  width: 25%;
+  margin-bottom: 30px;
+}
+
+.list__box i,
+.main-find i {
+  color: darkslategrey;
+}
+
+.list__box h5,
+.main-find span {
+  color: darkgreen;
+}

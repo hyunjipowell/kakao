@@ -1,0 +1,58 @@
+.setting__box {
+  display: flex;
+  align-items: center;
+  padding: 25px;
+}
+
+.setting__box i {
+  margin-right: 20px;
+}
+
+.set__text {
+  font-size: 20px;
+}
+
+.set-line {
+  border-bottom: var(--border-line);
+}
+
+.deep-line {
+  border-bottom: 3px solid #bcdebf80;
+}
+
+.set__noti {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 15px;
+  height: 15px;
+  font-size: 11px;
+  background-color: tomato;
+  color: white;
+  border-radius: 30px;
+  margin-left: 4px;
+}
+
+.setting__text {
+  display: flex;
+  justify-content: space-between;
+}
+
+.set__subtitle {
+  font-size: 16px;
+  color: #999999;
+}
+
+@keyframes cog {
+  from {
+    transform: none;
+  }
+  to {
+    transform: rotateZ(360deg);
+  }
+}
+
+.fa-cog:hover {
+  animation: cog 3s ease-in-out infinite;
+}

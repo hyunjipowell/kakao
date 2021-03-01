@@ -1,0 +1,55 @@
+.status-bar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #6cb77e;
+  padding: 10px;
+  position: fixed;
+  width: calc(100% - 20px);
+}
+
+.status-bar__column {
+  width: 33%;
+}
+
+.status-bar__column:first-child {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.status-bar__column:nth-child(2) {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.status-bar__column:last-child {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.fa-wifi,
+.fa-volume-mute,
+.fa-clock {
+  margin-right: 6px;
+}
+
+@keyframes battery {
+  0% {
+    color: black;
+    transform: none;
+  }
+  50% {
+    color: tomato;
+    transform: scale(1);
+  }
+  100% {
+    color: black;
+    transform: none;
+  }
+}
+.fa-battery-empty {
+  animation: battery 0.5s linear infinite;
+}

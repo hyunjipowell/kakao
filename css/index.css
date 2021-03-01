@@ -1,0 +1,56 @@
+.index-header {
+  text-align: center;
+  padding: 90px;
+}
+
+.index-header__title {
+  font-weight: 600;
+  font-size: 25px;
+  margin-bottom: 15px;
+}
+
+.index-header__text {
+  opacity: 0.5;
+}
+
+#index-login {
+  display: flex;
+  flex-direction: column;
+  margin: 0px 40px;
+}
+
+#index-login input {
+  padding: 15px 0px;
+  border: none;
+  font-size: 18px;
+  background-color: transparent;
+  border-bottom: 1px solid #d6d6d6;
+  margin-bottom: 5px;
+  transition: box-shadow 0.2s ease-in-out;
+}
+
+#index-login input::placeholder {
+  color: #999999;
+}
+
+#index-login input:focus {
+  border-radius: 10px;
+  box-shadow: 0px 11px 10px 0px #c5db92;
+}
+
+#index-login input[type="submit"] {
+  background-color: #c0e2c6;
+  box-shadow: none;
+  margin: 20px 0px;
+  border-radius: 5px;
+}
+
+#index-login input[type="submit"]:hover {
+  color: white;
+}
+#index-login a {
+  text-align: center;
+  text-decoration: none;
+  color: inherit;
+  font-size: 13px;
+}

@@ -1,0 +1,18 @@
+.user {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  padding-right: 10px;
+}
+
+.user__box {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  width: 100%;
+}
+
+.user a {
+  width: 100%;
+}
