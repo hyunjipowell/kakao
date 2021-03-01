@@ -1,2 +1,2 @@
-# kakao
+# Nomadcoders Challenges - kakao
 HTML,CSS
